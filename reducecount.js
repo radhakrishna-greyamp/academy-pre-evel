@@ -1,0 +1,9 @@
+var inputWords = ['Apple', 'Banana', 'Apple', 'Durian', 'Durian', 'Durian']
+
+function countWords(arr) {
+  return arr.reduce(function(countMap, word) {
+    // your implementation here
+    return countMap
+  }, {}) // second argument to reduce initialises countMap to {}
+}
+console.log(countWords(inputWords))
