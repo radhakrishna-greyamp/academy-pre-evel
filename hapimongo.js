@@ -2,6 +2,8 @@
 //Given problem 5, in the mongodb coding problems, 
 //write an hapijs (or express) REST API to return the response. 
 //The count and limit for the query must be taken from the query parameters
+//This starter code uses hapi-mongodb plugin, feel free to replace it with a different plugin.
+//You can you reimplement the whole code in express, if you are not comfortable with hapijs
 
 const Hapi = require('hapi');
 const Boom = require('boom');
