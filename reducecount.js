@@ -1,3 +1,7 @@
+//Problem statement
+//Given an Array of strings, use Array#reduce to create an object 
+//that contains the number of times each string occured in the array.
+
 var inputWords = ['Apple', 'Banana', 'Apple', 'Durian', 'Durian', 'Durian']
 
 function countWords(arr) {

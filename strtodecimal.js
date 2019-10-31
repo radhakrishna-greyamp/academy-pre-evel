@@ -1,3 +1,6 @@
+//Probelm statement
+//Create a function to convert an array of percentages to their decimal representations
+
 var convertToDecimal = function convertToDecimal(arg) {
 	var result = arg //
 	return result
